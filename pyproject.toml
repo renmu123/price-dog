@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "price-dog"
+version = "0.1.0"
+description = ""
+authors = ["renmu123 <1101022351@qq.com>"]
+license = "GPL"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.2"
+python-dotenv = "^1.0.0"
+apscheduler = "^3.10.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
